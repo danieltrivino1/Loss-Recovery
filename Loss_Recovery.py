@@ -52,9 +52,11 @@ def LossRecovery(decrease):
     df = pd.DataFrame({'Loss':np_array_lp_f, 'Return to Initial Investment':np_array_gti_f, 'Diference':(np_array_dif)})
     print(tabulate(df, headers='keys', tablefmt='psql'))
 
+LossRecovery(10)
+LossRecovery(20)
 LossRecovery(30)
-
-
+LossRecovery(40)
+LossRecovery(50)
 
 
 
