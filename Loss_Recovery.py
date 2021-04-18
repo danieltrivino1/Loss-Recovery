@@ -57,5 +57,3 @@ LossRecovery(20)
 LossRecovery(30)
 LossRecovery(40)
 LossRecovery(50)
-
-#Que chimba de programa
